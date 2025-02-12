@@ -33,5 +33,5 @@ go build -o nogpudeepseek
 ./nogpudeepseek
 ```
 
-许可协议
+## 许可协议
 本项目采用 MIT 许可协议
