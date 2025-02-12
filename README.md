@@ -20,7 +20,7 @@ NoGPUDeepSeek 是一个利用 Go 编写的 AI 项目，提供媲美 DEEPSEEK 的
 go run main.go
 ```
 
-2. 构建可执行文件
+### 2. 构建可执行文件
 若需要生成可执行文件，可以使用以下命令：
 
 ```bash
