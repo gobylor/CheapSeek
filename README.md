@@ -1,37 +1,46 @@
 # NoGPUDeepSeek
 
-NoGPUDeepSeek 是一个利用 Go 编写的 AI 项目，提供媲美 DEEPSEEK 的性能，并支持无显卡环境下运行。该项目完全开源，欢迎大家一起讨论与改进！
+[中文文档](README_zh.md)
 
-## 特性
+NoGPUDeepSeek is an AI project written in Go that provides performance comparable to DEEPSEEK and supports running in environments without GPU. This project is completely open source, and everyone is welcome to discuss and improve it!
 
-- **高性能**：性能媲美 DEEPSEEK，适用于 CPU 环境，无需 GPU 加速。
-- **跨平台**：基于 Go 语言，支持多平台部署。
-- **开源**：代码开源，欢迎提交 issue 与 PR，共同改进项目。
+## Features
 
-## 构建与运行
+- **High Performance**: Performance comparable to DEEPSEEK, suitable for CPU environments, no GPU acceleration required.
+- **Cross-Platform**: Based on Go language, supports multi-platform deployment.
+- **Open Source**: Code is open source, welcome to submit issues and PRs to improve the project together.
 
-确保你的开发环境中已安装 [Go](https://golang.org/dl/)
+## Build and Run
 
-### 1. 直接运行
+Make sure [Go](https://golang.org/dl/) is installed in your development environment
 
-在项目根目录下执行以下命令即可运行程序：
+### 1. Direct Run
+
+Execute the following command in the project root directory to run the program:
 
 ```bash
 go run main.go
 ```
 
-### 2. 构建可执行文件
-若需要生成可执行文件，可以使用以下命令：
+### 2. Build Executable
+If you need to generate an executable file, you can use the following command:
 
 ```bash
 go build -o nogpudeepseek
 ```
 
-生成的可执行文件名为 nogpudeepseek
-执行
+The generated executable file is named nogpudeepseek
+Execute
 ```bash
 ./nogpudeepseek
 ```
 
-## 许可协议
-本项目采用 MIT 许可协议
+## License
+This project is licensed under the MIT License
+
+## Disclaimer
+
+⚠️ **Important Note**: This project is actually a humorous parody created in response to the frequent unavailability of DeepSeek services. It's meant to be a light-hearted joke and not a real implementation of DeepSeek. 
+
+If you're looking for the actual DeepSeek implementation, please visit their official repository.
+[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
