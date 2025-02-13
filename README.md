@@ -4,43 +4,38 @@
 
 NoGPUDeepSeek is an AI project written in Go that provides performance comparable to DEEPSEEK and supports running in environments without GPU. This project is completely open source, and everyone is welcome to discuss and improve it!
 
-## Features
+## 🌟 Features
 
-- **High Performance**: Performance comparable to DEEPSEEK, suitable for CPU environments, no GPU acceleration required.
-- **Cross-Platform**: Based on Go language, supports multi-platform deployment.
-- **Open Source**: Code is open source, welcome to submit issues and PRs to improve the project together.
+- **High Performance**: Matches DeepSeek's error message delivery capabilities (CPU-only mode)
+- **Zero GPU Dependency**: Perfect for environments where real AI computation isn't needed
+- **Open Source Philosophy**: Now you can see exactly how little is happening under the hood!
 
-## Build and Run
+## 🚀 Installation & Running
 
-Make sure [Go](https://golang.org/dl/) is installed in your development environment
-
-### 1. Direct Run
-
-Execute the following command in the project root directory to run the program:
+Ensure you have [Go](https://golang.org/dl/) installed (though the program will work even if you don't)
 
 ```bash
 go run main.go
 ```
 
-### 2. Build Executable
-If you need to generate an executable file, you can use the following command:
+For enhanced realism:
+- Infinite disappointment loop: `while true; do go run main.go; done`
+- Production-grade simulation: `go run main.go >> your_app.log`
 
-```bash
-go build -o nogpudeepseek
-```
+## 🤔 Project Statement
+This is a conceptual art project that abstracts the "busy service" experience through minimalist code, providing a humorous deconstruction of common unavailability states in AI services.
+- The traumatic stress of the real DeepSeek "server is busy, please try again later".
+- Minimalist Art Experiment
+- An emotional outlet for developers who have experienced too many "server busy, please try again later" moments.
 
-The generated executable file is named nogpudeepseek
-Execute
-```bash
-./nogpudeepseek
-```
+## ⚠️ Disclaimer 
 
-## License
-This project is licensed under the MIT License
+This project is not associated with, endorsed by, or pretending to be DeepSeek. Contains 0% real AI. May cause philosophical contemplation about cloud computing. 
 
-## Disclaimer
+For actual AI capabilities, please visit:  
+[DeepSeek Official](https://github.com/deepseek-ai/DeepSeek-R1)
 
-⚠️ **Important Note**: This project is actually a humorous parody created in response to the frequent unavailability of DeepSeek services. It's meant to be a light-hearted joke and not a real implementation of DeepSeek. 
+🚨 Warning: This is digital dadaism, not production code!
 
-If you're looking for the actual DeepSeek implementation, please visit their official repository.
-[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+## 📜 License
+Distributed under [MIT License](LICENSE) - because even art needs legal protection
