@@ -13,11 +13,11 @@ CheapSeek 以极低的成本提供媲美 DeepSeek 的性能表现，完全无需
 
 ### 方式一：下载可执行文件（推荐）
 1. 从发布页面下载适合您平台的可执行文件：
-   - macOS Intel: `cheapseek-1.0.0-darwin-amd64`
-   - macOS Apple Silicon: `cheapseek-1.0.0-darwin-arm64`
-   - Linux x64: `cheapseek-1.0.0-linux-amd64`
-   - Linux ARM64: `cheapseek-1.0.0-linux-arm64`
-   - Windows: `cheapseek-1.0.0-windows-amd64.exe`
+   - macOS Intel: `cheapseek-darwin-amd64`
+   - macOS Apple Silicon: `cheapseek-darwin-arm64`
+   - Linux x64: `cheapseek-linux-amd64`
+   - Linux ARM64: `cheapseek-linux-arm64`
+   - Windows: `cheapseek-windows-amd64.exe`
 
 2. 添加执行权限（macOS/Linux）：
    ```bash

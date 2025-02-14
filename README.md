@@ -16,11 +16,11 @@ CheapSeek delivers DeepSeek-level performance at a fraction of the cost, running
 ### Option 1: Download Binary (Recommended)
 
 1. Download the latest binary for your platform from the releases section:
-   - macOS Intel: `cheapseek-1.0.0-darwin-amd64`
-   - macOS Apple Silicon: `cheapseek-1.0.0-darwin-arm64`
-   - Linux x64: `cheapseek-1.0.0-linux-amd64`
-   - Linux ARM64: `cheapseek-1.0.0-linux-arm64`
-   - Windows: `cheapseek-1.0.0-windows-amd64.exe`
+   - macOS Intel: `cheapseek-darwin-amd64`
+   - macOS Apple Silicon: `cheapseek-darwin-arm64`
+   - Linux x64: `cheapseek-linux-amd64`
+   - Linux ARM64: `cheapseek-linux-arm64`
+   - Windows: `cheapseek-windows-amd64.exe`
 
 2. Make the binary executable (macOS/Linux):
    ```bash
@@ -56,7 +56,7 @@ This is a conceptual art project that uses minimalist code to abstractly represe
 
 ## ⚠️ Disclaimer 
 
-This project is not associated with, endorsed by, or pretending to be DeepSeek. Contains 0% real AI. May cause philosophical contemplation about cloud computing. 
+This project is not associated with, endorsed by, or pretending to be DeepSeek. Contains 0% real AI. May cause philosophical contemplation about cloud computing.
 
 For actual AI capabilities, please visit:  
 [DeepSeek Official](https://github.com/deepseek-ai/DeepSeek-R1)
