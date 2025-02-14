@@ -1,5 +1,5 @@
 VERSION := $(shell git describe --tags --abbrev=0)
-LDFLAGS := -X github.com/gobylor/cheapseek/version.Version=$(VERSION)
+LDFLAGS := -X main.version=$(VERSION)
 
 .PHONY: build
 build:
