@@ -8,18 +8,41 @@ NoGPUDeepSeek 是一个利用 Go 编写的 AI 项目，提供媲美 DEEPSEEK 的
 - **跨平台**：基于 Go 语言，支持多平台部署。
 - **开源**：代码开源，欢迎提交 issue 与 PR，共同改进项目。
 
+## 🚀 安装说明
 
-## 🚀 如何运行
+### 方式一：下载可执行文件（推荐）
 
-确保你的开发环境中已安装 [Go](https://golang.org/dl/)
+1. 从发布页面下载适合您平台的可执行文件：
+   - macOS Intel: `nogpudeepseek-1.0.0-darwin-amd64`
+   - macOS Apple Silicon: `nogpudeepseek-1.0.0-darwin-arm64`
+   - Linux x64: `nogpudeepseek-1.0.0-linux-amd64`
+   - Linux ARM64: `nogpudeepseek-1.0.0-linux-arm64`
+   - Windows: `nogpudeepseek-1.0.0-windows-amd64.exe`
+
+2. 添加执行权限（macOS/Linux）：
+   ```bash
+   chmod +x nogpudeepseek-*
+   ```
+
+3. 运行程序：
+   ```bash
+   # macOS/Linux
+   ./nogpudeepseek-*
+
+   # Windows
+   nogpudeepseek-*.exe
+   ```
+
+### 方式二：从源码编译
+
+如果您已安装 Go 环境，可以从源码编译：
 
 ```bash
-go run main.go
+git clone https://github.com/yourusername/NoGPUDeepSeek.git
+cd NoGPUDeepSeek
+go build -o nogpudeepseek
+./nogpudeepseek
 ```
-  
-增强现实版：
-- 循环体验: `while true; do go run main.go; done`
-- 接入生产日志: `go run main.go >> your_app.log`
 
 ## 🤔 项目概述
 这是一个概念艺术项目，通过极简代码抽象表现"服务繁忙"体验，对AI服务中常见的不可用状态进行幽默解构。
