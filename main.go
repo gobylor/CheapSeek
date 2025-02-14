@@ -9,7 +9,6 @@ import (
     "time"
 )
 
-// version will be set during build
 var version = "dev"
 
 func simulateThinking() {
