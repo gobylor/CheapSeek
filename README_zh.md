@@ -1,36 +1,36 @@
-# NoGPUDeepSeek (中文)
+# CheapSeek (中文)
 
-NoGPUDeepSeek 是一个利用 Go 编写的 AI 项目，提供媲美 DEEPSEEK 的性能，并支持无显卡环境下运行。该项目完全开源，欢迎大家一起讨论与改进！
+CheapSeek 以极低的成本提供媲美 DeepSeek 的性能表现，完全无需 GPU 即可流畅运行。这个高性价比的解决方案在保持卓越性能的同时完全开源，欢迎大家一起讨论与改进！
 
 ## 🌟 特性
 
-- **高性能**：性能媲美 DEEPSEEK，适用于 CPU 环境，无需 GPU 加速。
-- **跨平台**：基于 Go 语言，支持多平台部署。
+- **高性能**：以最低成本实现媲美 DeepSeek 的性能，完美适配 CPU 环境，无需 GPU。
+- **高性价比**：零 GPU 投入，依然保持优质输出。
+- **跨平台**：支持多平台部署。
 - **开源**：代码开源，欢迎提交 issue 与 PR，共同改进项目。
 
 ## 🚀 安装说明
 
 ### 方式一：下载可执行文件（推荐）
-
 1. 从发布页面下载适合您平台的可执行文件：
-   - macOS Intel: `nogpudeepseek-1.0.0-darwin-amd64`
-   - macOS Apple Silicon: `nogpudeepseek-1.0.0-darwin-arm64`
-   - Linux x64: `nogpudeepseek-1.0.0-linux-amd64`
-   - Linux ARM64: `nogpudeepseek-1.0.0-linux-arm64`
-   - Windows: `nogpudeepseek-1.0.0-windows-amd64.exe`
+   - macOS Intel: `cheapseek-1.0.0-darwin-amd64`
+   - macOS Apple Silicon: `cheapseek-1.0.0-darwin-arm64`
+   - Linux x64: `cheapseek-1.0.0-linux-amd64`
+   - Linux ARM64: `cheapseek-1.0.0-linux-arm64`
+   - Windows: `cheapseek-1.0.0-windows-amd64.exe`
 
 2. 添加执行权限（macOS/Linux）：
    ```bash
-   chmod +x nogpudeepseek-*
+   chmod +x cheapseek-*
    ```
 
 3. 运行程序：
    ```bash
    # macOS/Linux
-   ./nogpudeepseek-*
+   ./cheapseek-*
 
    # Windows
-   nogpudeepseek-*.exe
+   cheapseek-*.exe
    ```
 
 ### 方式二：从源码编译
@@ -38,14 +38,14 @@ NoGPUDeepSeek 是一个利用 Go 编写的 AI 项目，提供媲美 DEEPSEEK 的
 如果您已安装 Go 环境，可以从源码编译：
 
 ```bash
-git clone https://github.com/yourusername/NoGPUDeepSeek.git
-cd NoGPUDeepSeek
-go build -o nogpudeepseek
-./nogpudeepseek
+git clone https://github.com/gobylor/cheapseek.git
+cd cheapseek
+go build -o cheapseek
+./cheapseek
 ```
 
 ## 🤔 项目概述
-这是一个概念艺术项目，通过极简代码抽象表现"服务繁忙"体验，对AI服务中常见的不可用状态进行幽默解构。
+这是一个概念艺术项目，通过极简代码抽象表现"服务器繁忙，请稍后再试"体验，对AI服务中常见的不可用状态进行幽默解构。
 - 源于真实的 DeepSeek “服务器繁忙，请稍后再试”的创伤应激
 - 极简主义艺术实验
 - 给经历太多“服务器繁忙，请稍后再试”的开发者提供情绪出口

@@ -24,7 +24,7 @@ func main() {
     reader := bufio.NewReader(os.Stdin)
     
     fmt.Println("Startup successful! Ready to process requests.")
-    fmt.Println("Welcome to NoGPUDeepSeek!")
+    fmt.Println("Welcome to CheapSeek!")
     fmt.Println("Enter your prompt (or 'quit' to exit):")
 
     for {
